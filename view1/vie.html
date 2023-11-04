@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .room-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .room {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+        }
+
+        .student-form {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hostel</h1>
+    </header>
+
+    <div class="container">
+        <h2>Room Allocation</h2>
+        <div class="room-list">
+            <div class="room">
+                <h3>Room 101</h3>
+                <p>Capacity: 4</p>
+                <p>Occupied: 2</p>
+                <p>Available: 2</p>
+            </div>
+            <div class="room">
+                <h3>Room 102</h3>
+                <p>Capacity: 3</p>
+                <p>Occupied: 1</p>
+                <p>Available: 2</p>
+            </div>
+           
+        </div>
+
+        <h2>Student Registration</h2>
+        <div class="student-form">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="room">Room:</label>
+                <select id="room" name="room">
+                    <option value="101">Room 101</option>
+                    <option value="102">Room 102</option>
+                   
+                </select><br>
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
