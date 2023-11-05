@@ -1,0 +1,48 @@
+.w-450 {
+	width: 450px;
+}
+.vh-100 {
+	min-height: 100vh;
+}
+.w-350 {
+	width: 350px;
+}
+button{
+    position: relative;
+  width: 25%;
+  height: 35px;
+  background: rgb(94, 97, 97);
+
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+.shadow{
+    background-color:rgb(4, 4, 46);
+}
+.display-4{
+    color: aliceblue;
+}
+.form-label{
+    color: aliceblue;
+}
+.mb-3{
+    background-color:rgb(4, 4, 46);
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="file"]
+{
+    background-color:rgb(4, 4, 46);
+}
+.im1{
+    margin-left: 20px;
+}
+body{
+    background-color: #1b203d;
+}
